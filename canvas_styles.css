@@ -1,8 +1,34 @@
-/* Mobile First */
+/* Mobile Settings */
+
+	#canvas{
+		width: 100%;
+		background-color: #FFF;
+	}
+
+	.btn-holder {
+	  text-align: center;
+	  margin: 20px auto;
+	}
+
+	.red-btn {
+	  color: #fff;
+	  background: #d60000;
+	  border: 1px solid #d60000;
+	  border-radius: 8px;
+	  font-weight: 700;
+	  padding: 10px 35px;
+	  cursor: pointer;
+	}
 
 
 /* Desktop Version */
 @media screen and (min-width: 1060px){
+
+	#canvas{
+		width: 100%;
+		height: 800px;
+		background-color: #FFF;
+	}
 
 	.btn-holder {
 	  text-align: center;
